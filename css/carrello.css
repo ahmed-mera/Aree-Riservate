@@ -1,0 +1,118 @@
+ /* .container-fluid
+{
+  padding-left: 1px;
+  padding-right: 1px;
+} */
+.alert
+{
+  padding: 3px 7px;
+  max-width: 700px;
+  border-radius: 15px;
+}
+.container-fluid
+{
+  padding: 50px 5px;
+  max-width: 100%;
+  margin: 30px auto;
+  transition: all 1s ease-in-out;
+}
+
+.price_pizza,
+.name_pizza
+{
+  font-size: 22px;
+    font-weight: bold;
+   /* line-height: 60px; */
+}
+
+.messaggio{
+
+  margin: 30px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  font-size: 30px;
+  color: #959494;
+  display: none;
+
+
+}
+.messaggio .fa-sad-tear {
+  margin: 0 5px;
+  color: #d73545;
+}
+.con_form_table .btn
+{
+  margin-left: 20px;
+  padding: 0px 15px;
+}
+.table {
+  border: 1px solid #eae9e9;
+   width: 95%;
+   margin: 10px auto;
+  /* float: right; */
+
+}
+
+.table .custom-control-label,
+form .btn
+ {
+  cursor: pointer;
+}
+
+.table thead
+{
+  border: none;
+  border-left: 2px solid #343a40;
+  border-right: 2px solid #343a40;
+  text-align: center;
+}
+.table .thead-dark th
+{
+  border: none;
+font-size: 25px;
+font-style: initial;
+font-family: tahoma;
+}
+.table tr{
+  border: none;
+  margin: 0 auto
+
+}
+ .table tr:hover
+{
+  background: #eee
+}
+
+ .table tr:last-of-type:hover
+{
+ background: transparent;
+
+}
+.table tr:last-of-type
+{
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.table tr:last-of-type td {
+  /* border: 1px solid #eee;
+  letter-spacing: 10px; */
+}
+
+.table tbody{
+  line-height: 30px;
+  text-align: center;
+  border: none;
+}
+.table .del
+{
+font-size: 45px;
+cursor: pointer;
+line-height: 25px;
+transition: all .3s ease-in-out;
+}
+
+.table .del:hover {
+
+color: red;
+}

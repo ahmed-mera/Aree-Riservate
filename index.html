@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--START LINK META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- per il risponsive -->
+    <!--START LINK META -->
+    <title> Home Page </title>
+    <!--START LINK CSS -->
+    <link rel="stylesheet" href="../layout/css/bootstrap.min.css"> <!--bootstrap-->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"> -->
+    <!-- <link rel="stylesheet" href="../layout/css/mdb.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/index.css"> <!--MY FILE CSS-->
+
+    <!--START LINK CSS -->
+  </head>
+   <body>
+     <!-- start navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <div class="container">
+    <a class="navbar-brand" href="#">  Ahmed <span> Mera </span>  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">contact us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            service
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>
+</nav>
+     <!-- end navbar -->
+
+     <div class="container-fluid slid">
+       <div class="slider">
+           <div id="my-slider" class="carousel slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+               <li data-target="#my-slider" data-slide-to="0" class="active"></li>
+               <li data-target="#my-slider" data-slide-to="1"></li>
+               <li data-target="#my-slider" data-slide-to="2"></li>
+             </ol>
+             <div class="carousel-inner">
+               <div class="carousel-item active one">
+                 <img class="d-block w-100 img-fluid" src="../layout/images/pizza_back.jpg" alt="First slide">
+               </div>
+               <div class="carousel-item two">
+                 <img class="d-block w-100 img-fluid" src="../layout/images/pizza_3.jpg" alt="Second slide">
+               </div>
+               <div class="carousel-item three">
+                 <img class="d-block w-100 img-fluid" src="../layout/images/pizza_4.jpg" alt="Third slide">
+               </div>
+             </div>
+             <a class="carousel-control-prev" href="#my-slider" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="carousel-control-next" href="#my-slider" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+           </div>
+       </div>
+     </div>
+
+     <div class="container-fluid">
+       <div class="container  text-center">
+         <h2 class="heading">Le nostre pizze</h2>
+         <div class="row">
+           <div class="col-lg-3 col-md-4 col-10 mx-auto">
+             <div class="card pizza">
+               <img class="card-img-top img-fluid" src="../layout/images/pizza_18.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h3 class="card-title">Prosciutto e funghi</h3>
+                 <!--  <p class="card-text">qua ci sara' il contenuto.</p> -->
+                 <p class="prezzo">6€</p>
+                 <form>
+                     <input type="hidden" name="src" value="../layout/images/pizza_18.jpg"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="pizza" value="Prosciutto e funghi"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="price" value="6€"> <!-- per sapere quale pizza ha scelto l'utente -->
+                      <button type="button"  class="btn btn-primary btn-block">Aggiungi al carrello</button>
+                  </form>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-10 mx-auto">
+             <div class="card pizza">
+               <img class="card-img-top img-fluid" src="../layout/images/pizza_5.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h3 class="card-title">Gusto italiano</h3>
+                 <!-- <p class="card-text">qua ci sara' il contenuto.</p> -->
+                 <p class="prezzo">7€</p>
+                 <form>
+                     <input type="hidden" name="src" value="../layout/images/pizza_5.jpg"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="pizza" value="Gusto italiano"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="price" value="7€"> <!-- per sapere quale pizza ha scelto l'utente -->
+                      <button type="button"  class="btn btn-primary btn-block">Aggiungi al carrello</button>
+                  </form>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-10 mx-auto">
+             <div class="card pizza">
+               <img class="card-img-top img-fluid" src="../layout/images/pizza_6.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h3 class="card-title">Capricciosa</h3>
+                 <!-- <p class="card-text">qua ci sara' il contenuto.</p> -->
+                 <p class="prezzo">7.50€</p>
+                 <form>
+                     <input type="hidden" name="src" value="../layout/images/pizza_6.jpg"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="pizza" value="Capricciosa"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="price" value="7.50€"> <!-- per sapere quale pizza ha scelto l'utente -->
+                      <button type="button"  class="btn btn-primary btn-block">Aggiungi al carrello</button>
+                  </form>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-10 mx-auto">
+             <div class="card pizza">
+               <img class="card-img-top img-fluid" src="../layout/images/pizza_7.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h3 class="card-title">Crudo e rucola</h3>
+                 <!-- <p class="card-text">qua ci sara' il contenuto.</p> -->
+                 <p class="prezzo">6€</p>
+                 <form>
+                     <input type="hidden" name="src" value="../layout/images/pizza_7.jpg"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="pizza" value="Crudo e rucola"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="price" value="6€"> <!-- per sapere quale pizza ha scelto l'utente -->
+                      <button type="button"  class="btn btn-primary btn-block">Aggiungi al carrello</button>
+                  </form>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-10 mx-auto">
+             <div class="card pizza">
+               <img class="card-img-top img-fluid" src="../layout/images/pizza_8.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h3 class="card-title">Cipolla e olive</h3>
+                 <!-- <p class="card-text">qua ci sara' il contenuto.</p> -->
+                 <p class="prezzo">6€</p>
+                 <form>
+                     <input type="hidden" name="src" value="../layout/images/pizza_8.jpg"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="pizza" value="Cipolla e olive"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="price" value="6€"> <!-- per sapere quale pizza ha scelto l'utente -->
+                      <button type="button"  class="btn btn-primary btn-block">Aggiungi al carrello</button>
+                  </form>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-10 mx-auto">
+             <div class="card pizza">
+               <img class="card-img-top img-fluid" src="../layout/images/pizza_9.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h3 class="card-title">Wuster, olive e grana</h3>
+                 <!-- <p class="card-text">qua ci sara' il contenuto.</p> -->
+                 <p class="prezzo">7€</p>
+                 <form>
+                     <input type="hidden" name="src" value="../layout/images/pizza_9.jpg"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="pizza" value="Wuster, olive e grana"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="price" value="7€"> <!-- per sapere quale pizza ha scelto l'utente -->
+                      <button type="button"  class="btn btn-primary btn-block">Aggiungi al carrello</button>
+                  </form>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-10 mx-auto">
+             <div class="card pizza">
+               <img class="card-img-top img-fluid" src="../layout/images/pizza_14.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h3 class="card-title">Rucola, olive e peperoni</h3>
+                 <!-- <p class="card-text">qua ci sara' il contenuto.</p> -->
+                 <p class="prezzo">7€</p>
+                 <form>
+                     <input type="hidden" name="src" value="../layout/images/pizza_14.jpg"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="pizza" value="Rucola, olive e peperoni"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="price" value="7€"> <!-- per sapere quale pizza ha scelto l'utente -->
+                      <button type="button"  class="btn btn-primary btn-block">Aggiungi al carrello</button>
+                  </form>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-10 mx-auto">
+             <div class="card pizza">
+               <img class="card-img-top img-fluid" src="../layout/images/pizza_11.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h3 class="card-title">Salame piccante e olive</h3>
+                 <!-- <p class="card-text">qua ci sara' il contenuto.</p> -->
+                 <p class="prezzo">7€</p>
+                 <form>
+                     <input type="hidden" name="src" value="../layout/images/pizza_11.jpg"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="pizza" value="name"> <!-- per sapere quale pizza ha scelto l'utente -->
+                     <input type="hidden" name="price" value="7€"> <!-- per sapere quale pizza ha scelto l'utente -->
+                      <button type="button"  class="btn btn-primary btn-block">Aggiungi al carrello</button>
+                  </form>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   <!--START LINK SCRIPT -->
+     <script src="../layout/js/jquery-3.3.1.min.js"></script> <!--jquery-->
+     <!-- <script src="../layout/js/mdb.min.js"></script> bootstrap-->
+
+     <script src="../layout/js/bootstrap.min.js"></script> <!--bootstrap-->
+     <script src="../layout/js/all.min.js"></script> <!--fontaswome-->
+     <script src="../layout/js/jquery.nicescroll.min.js"></script> <!--nice scrolling-->
+     <!--<script src="../layout/js/particles.min.js"></script>--> <!--background-->
+     <script src="js/index.js"></script> <!--MY FILE JS-->
+     <!--END LINK SCRIPT-->
+     </body>
+     </html>

@@ -1,0 +1,61 @@
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-family: serif;
+    font-style: oblique;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-dark {
+  transition: .7s ease-in-out;
+
+}
+.navbar-dark .navbar-brand span
+{
+  color : #ee0505b3
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 15px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: rgba(221, 221, 221, .85);
+    /* width: 100%; */
+    transition: .7s ease-in-out;
+
+  }
+.slid
+{
+  margin: 0;
+  padding: 0;
+}
+
+.pizza
+{
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 3px #bab6b6;
+  /* cursor: pointer; */
+}
+ .pizza img {
+   height: 200px;
+   border-radius: 15px 15px 0 0
+ }
+
+
+ .pizza .prezzo
+ {
+  font-weight: bold;
+  font-size: 40px;
+ }
+ .pizza .btn {
+  border-radius: 10px;
+  transition:all .5s ease-in-out
+ }
+ .pizza .btn:hover {
+   border-radius: 100px;
+   width: 90%;
+   margin: 0 auto
+}
